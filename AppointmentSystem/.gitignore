@@ -1,0 +1,62 @@
+## Build results
+bin/
+obj/
+
+## User-specific files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+## OS generated files
+.DS_Store
+Thumbs.db
+
+## Visual Studio cache files
+.vscode/
+.vs/
+
+## Log files
+*.log
+
+## ASP.NET Core Environment files
+.env
+.env.*
+
+## NuGet packages
+*.nupkg
+packages/
+.nuget/
+
+## Microsoft Azure Web App publish settings
+PublishProfiles/
+
+## Resharper files
+_ReSharper*/
+*.DotSettings.user
+
+## Test Results
+TestResults/
+*.trx
+
+## Web config transforms
+web.*.config
+
+## Global JetBrains Rider settings
+.idea/
+
+## Coverage results
+coverage/
+coverage.cobertura.xml
+
+## Temporary files
+tmp/
+temp/
+
+## SQLite or other local DBs (opcional)
+*.db
+*.sqlite
+*.sqlite3
+
+## Crash dumps
+*.dmp
