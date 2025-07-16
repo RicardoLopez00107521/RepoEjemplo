@@ -1,0 +1,32 @@
+.card {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 15px;
+  background-color: #fdfdfd;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  max-width: 400px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.text {
+  font-size: 16px;
+  color: #555;
+  margin: 5px 0;
+}
+
+.role {
+  display: inline-block;
+  background-color: #eee;
+  padding: 5px 10px;
+  margin: 3px;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #333;
+}

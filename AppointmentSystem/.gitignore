@@ -60,3 +60,43 @@ temp/
 
 ## Crash dumps
 *.dmp
+
+# Node modules
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build output
+dist/
+build/
+
+# Vite cache
+.vite/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE/editor folders
+.vscode/
+.idea/
+*.sw?
+
+# Optional: Mac system files
+*.DS_Store
+
+# Optional: coverage from tests
+coverage/
+
+# Optional: next.js/.nuxt, if reused
+.next/
+.nuxt/
