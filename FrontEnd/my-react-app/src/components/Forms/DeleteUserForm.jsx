@@ -15,20 +15,18 @@ const DeleteUserForm = ({ onSuccess }) => {
     e.preventDefault();
     setStatus(null);
 
+    const id = parseInt(formData.userId);
+
     try {
-      const response = await fetch('http://localhost:5105/api/user/delete-user', {
+      const response = await fetch(`http://localhost:5105/api/user/delete-user/${id}`, {
         method: 'DELETE',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          userId: parseInt(formData.userId),
-        }),
       });
 
       const result = await response.json();
 
       if (!response.ok) throw new Error(result.message || 'Error al eliminar el usuario');
 
-      setStatus({ type: 'success', message: 'Usuario eliminado con exito!' });
+      setStatus({ type: 'success', message: '✅ Usuario eliminado con éxito' });
       setFormData({ userId: '' });
 
       if (onSuccess) onSuccess();
